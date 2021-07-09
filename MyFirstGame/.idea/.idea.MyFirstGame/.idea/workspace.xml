@@ -10,6 +10,13 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Parallax/ParallaxBackground.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Parallax/ParallaxLayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Parallax/ParallaxCamera.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Pickup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Slot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Spawn.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1v2d2qPnlTCiltY6iSnP2CRP0Vt" />
