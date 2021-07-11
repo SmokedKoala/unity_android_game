@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
     
     private Animator _anim;
+    public Joystick jostick;
 
     private void Start()
     {
@@ -30,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        moveInput = Input.GetAxis("Horizontal");
+        moveInput = jostick.Horizontal;
         // Вектор скорости твердого тела
         _rigidbody2D.velocity = new Vector2(moveInput * speed, _rigidbody2D.velocity.y);
         if ((_facingRight && moveInput > 0) || (!_facingRight && moveInput < 0))
@@ -50,8 +51,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        float verticalMove = jostick.Vertical;
         _isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
-        if (_isGrounded && Input.GetKeyDown(KeyCode.Space)){
+        if (_isGrounded && verticalMove >= 0.5f){
             _rigidbody2D.velocity = Vector2.up * jumpForce;
             _anim.SetTrigger("takeOff");
         }
