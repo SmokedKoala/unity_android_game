@@ -17,6 +17,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Slot.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Inventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Spawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogues/Dialogue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueAnimator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogues/DialogueManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1v2d2qPnlTCiltY6iSnP2CRP0Vt" />
