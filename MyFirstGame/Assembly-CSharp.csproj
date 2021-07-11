@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Parallax\ParallaxBackground.cs" />
      <Compile Include="Assets\Scripts\Inventory\Pickup.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Dialogues\Dialogue.cs" />
      <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
@@ -71,6 +72,15 @@
      <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+=======
+     <Compile Include="Assets\Scripts\Parallax\ParallaxLayer.cs" />
+     <Compile Include="Assets\Scripts\Parallax\ParallaxBackground.cs" />
+     <Compile Include="Assets\Scripts\Parallax\ParallaxCamera.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Slot.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Pickup.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Spawn.cs" />
+>>>>>>> main
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
