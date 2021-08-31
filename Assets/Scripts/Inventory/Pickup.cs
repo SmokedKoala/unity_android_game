@@ -8,6 +8,7 @@ public class Pickup : MonoBehaviour
 {
     private Inventory _inventory;
     public GameObject slotButton;
+    public int id;
 
     private void Start()
     {
@@ -32,4 +33,5 @@ public class Pickup : MonoBehaviour
             }
         }
     }
+    
 }
